@@ -1,0 +1,45 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -48 -16 96 48
+LINE Normal -48 112 96 48
+LINE Normal -48 -16 -48 112
+LINE Normal -44 16 -36 16
+LINE Normal -44 80 -36 80
+LINE Normal -40 84 -40 76
+LINE Normal -11 -8 -3 -8
+LINE Normal -7 -12 -7 -4
+LINE Normal -9 103 -1 103
+LINE Normal -16 -2 -16 -16
+LINE Normal -16 98 -16 112
+LINE Normal 48 27 48 16
+LINE Normal 16 84 16 96
+LINE Normal 80 55 80 80
+WINDOW 0 -6 -48 Left 2
+WINDOW 3 -31 49 Left 2
+SYMATTR Value AD8237
+SYMATTR Prefix X
+SYMATTR Description 250MHz (G=1) voltage feedback op amp
+PIN 48 16 LEFT 5
+PINATTR PinName BW
+PINATTR SpiceOrder 1
+PIN -48 80 NONE 0
+PINATTR PinName In+
+PINATTR SpiceOrder 2
+PIN -48 16 NONE 0
+PINATTR PinName In-
+PINATTR SpiceOrder 3
+PIN -16 112 NONE 0
+PINATTR PinName V-
+PINATTR SpiceOrder 4
+PIN -16 -16 NONE 0
+PINATTR PinName V+
+PINATTR SpiceOrder 5
+PIN 16 96 LEFT 5
+PINATTR PinName REF
+PINATTR SpiceOrder 6
+PIN 80 80 LEFT 5
+PINATTR PinName FB
+PINATTR SpiceOrder 7
+PIN 96 48 NONE 0
+PINATTR PinName OUT
+PINATTR SpiceOrder 8
